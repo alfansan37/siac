@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/config/app.php';
+require_once __DIR__ . '/../config/app.php';
 
 // Cek apakah admin sudah login atau belum
 if (isset($_SESSION['user_id'])) {
