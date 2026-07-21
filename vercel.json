@@ -6,16 +6,12 @@
   },
   "routes": [
     {
-      "src": "/",
-      "dest": "/api/index.php"
-    },
-    {
       "src": "/(.*\\.php)",
       "dest": "/$1"
     },
     {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "src": "/",
+      "dest": "/index.php"
     }
   ]
 }
